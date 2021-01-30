@@ -1,0 +1,30 @@
+.separator {
+    border-style: solid;
+    border-width: 0 0 .2rem  0;
+    width: 15rem;
+}
+
+/*.separator--left {*/
+/*    margin-right: 10rem;*/
+/*}*/
+
+/*.separator--right {*/
+/*    margin-left: 2rem;*/
+/*}*/
+
+@media screen and (min-width: 30rem) {
+    .separator--left {
+        margin-right: 32%;
+    }
+    .separator--right {
+        margin-left: 32%;
+    }
+}
+
+.separator--gray {
+    border-color: var(--gray);
+}
+
+.separator--primary {
+    border-color: var(--primary);
+}

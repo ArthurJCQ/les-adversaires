@@ -1,0 +1,9 @@
+.hero-item {
+    min-height: 20rem;
+}
+
+@media screen and (min-width: 30rem) {
+    .hero-item {
+        min-height: 40rem;
+    }
+}
