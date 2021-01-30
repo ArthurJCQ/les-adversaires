@@ -5,6 +5,7 @@ const linkResolver = require('./src/utils/link-resolver')
 module.exports = {
   siteMetadata: {
     title: 'les-adversaires',
+    siteUrl: 'https://www.les-adversaires.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
